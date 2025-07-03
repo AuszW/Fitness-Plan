@@ -29,7 +29,7 @@ except KeyError:
     st.error("OpenAI API key not found in Streamlit secrets. Please add it in the Secrets manager.")
     st.stop()
 
-st.title("💪 PowerBlueprint")
+st.title("💪 FitnessApp")
 st.write("Get a custom workout plan in seconds. Just tell me what you need:")
 
 # User Inputs
