@@ -12,7 +12,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set page config with minimal menu
 st.set_page_config(
-    page_title="PowerBlueprint",
+    page_title="FitnessApp",
     layout="centered",
     initial_sidebar_state="collapsed",
     menu_items={
