@@ -62,7 +62,7 @@ if st.button("Generate My Plan"):
         prompt += " Include exercises, sets, reps, and rest time. Format clearly by day."
 
         try:
-            response = openai.ChatCompletion.create(
+            response = openai.chat.completions.create(
                 model="gpt-4",
                 messages=[
                     {"role": "system", "content": "You are a skilled personal trainer who builds custom fitness plans."},
